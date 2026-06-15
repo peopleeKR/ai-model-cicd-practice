@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'httpls://github.com/peopleeKR/ai-model-cicd-practice.git'
+                    url: 'https://github.com/peopleeKR/ai-model-cicd-practice.git'
             }
         }
 
